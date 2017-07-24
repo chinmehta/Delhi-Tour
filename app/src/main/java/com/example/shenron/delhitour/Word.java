@@ -17,6 +17,11 @@ public class Word {
         mIntroDescription = desc;
         mImageResourceId = image;
     }
+    public Word(String place, String desc)
+    {
+        mPlace = place;
+        mIntroDescription = desc;
+    }
 
     public String getmPlace()
     {

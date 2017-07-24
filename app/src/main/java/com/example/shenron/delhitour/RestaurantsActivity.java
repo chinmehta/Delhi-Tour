@@ -18,22 +18,22 @@ import java.util.ArrayList;
 public class RestaurantsActivity extends AppCompatActivity {
 
 
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.word_list);
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.word_list);
 
-        final ArrayList<Word> words = new ArrayList<Word>();
+            final ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("Masala Library", "Janpath", 9));
-        words.add(new Word("Indian Accent - The Manor", "Friends Colony", 9));
-        words.add(new Word("On the Waterfront - The Lodhi", "The Lodhi, Lodhi Road", 9));
-        words.add(new Word("Sevilla - The Claridges", "The Claridges, Aurangzeb Road", 9));
-        words.add(new Word("Lakhori - Haveli Dharampura", "Chandni Chowk", 9));
-        words.add(new Word("SET'Z", "DLF Emporio Mall, Vasant Kunj", 9));
-        words.add(new Word("Tamra - Shangri-La's - Eros Hotel", "Shangri La's - Eros hotel, Janpath", 9));
-        words.add(new Word("Dum-Pukht - ITC Maurya", "ITC Maurya, Chanakyapuri", 9));
-        words.add(new Word("FIO Cookhouse and Bar", "Epicuria Food Mall, Nehru Place", 9));
-        words.add(new Word("The Great Kabab Factory - Radisson Blu Plaza Delhi", "Radisson Blu Plaza Delhi, Mahipalpur", 9));
+        words.add(new Word("Masala Library", "Janpath",R.drawable.masala_library));
+        words.add(new Word("Indian Accent - The Manor", "Friends Colony",R.drawable.indian_accent));
+        words.add(new Word("On the Waterfront - The Lodhi", "The Lodhi, Lodhi Road",R.drawable.on_the_waterfront));
+        words.add(new Word("Sevilla - The Claridges", "The Claridges, Aurangzeb Road",R.drawable.sevilla_claridges));
+        words.add(new Word("Lakhori - Haveli Dharampura", "Chandni Chowk",R.drawable.lakhori_dharampura));
+        words.add(new Word("SET'Z", "DLF Emporio Mall, Vasant Kunj",R.drawable.setz));
+        words.add(new Word("Tamra - Shangri-La's - Eros Hotel", "Shangri La's - Eros hotel, Janpath",R.drawable.tamra));
+        words.add(new Word("Dum-Pukht - ITC Maurya", "ITC Maurya, Chanakyapuri",R.drawable.itc));
+        words.add(new Word("FIO Cookhouse and Bar", "Epicuria Food Mall, Nehru Place",R.drawable.cookhouse));
+        words.add(new Word("The Great Kabab Factory - Radisson Blu Plaza Delhi", "Radisson Blu Plaza Delhi, Mahipalpur",R.drawable.the_great_kabab_factory));
 
 
         //Create an {@link ArrayAdapter}, whose data source is list of Strings. The

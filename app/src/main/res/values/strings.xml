@@ -1,12 +1,4 @@
 <resources>
     <string name="app_name">Delhi Tour</string>
-    <string name="description">Delhi officially the National Capital Territory of Delhi or NCT is a city and a union territory of India
-It is bordered by Haryana on three sides and by Uttar Pradesh to the east
-The NCT covers an area of 1484 square kilometres According to 2011 census Delhis city population was about 11 million the second highest in India after Mumbai
-while the whole NCT population was about 16.8 million making it the worlds 4th largest city proper by population
-Delhis urban area is now considered to extend beyond the NCT boundary to include an estimated population of
-over 26 million people making it the worlds second largest urban area
-As of 2016 recent estimates of the metro economy of its urban area have ranked Delhi either the top or second
-most productive metro area of India Delhi is the second wealthiest city after Mumbai in India with a total wealth
-of $450 billion and home to 18 billionaires and 23000 millionaires</string>
+    <string name="description">Delhi officially the National Capital Territory of Delhi or NCT is a city and a union territory of IndiaIt is bordered by Haryana on three sides and by Uttar Pradesh to the eastThe NCT covers an area of 1484 square kilometres According to 2011 census Delhis city population was about 11 million the second highest in India after Mumbai while the whole NCT population was about 16.8 million making it the worlds 4th largest city proper by population Delhis urban area is now considered to extend beyond the NCT boundary to include an estimated population of over 26 million people making it the worlds second largest urban area As of 2016 recent estimates of the metro economy of its urban area have ranked Delhi either the top or second most productive metro area of India Delhi is the second wealthiest city after Mumbai in India with a total wealth of $450 billion and home to 18 billionaires and 23000 millionaires</string>
 </resources>

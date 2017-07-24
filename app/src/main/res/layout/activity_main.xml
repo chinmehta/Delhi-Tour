@@ -6,10 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.example.shenron.delhitour.MainActivity">
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/start_image"
+        android:layout_above="@+id/info_image_view_row"
+        android:scaleType="centerCrop"/>
 
     <LinearLayout
         android:id="@+id/info_image_view_row"
         android:layout_width="fill_parent"
+        android:layout_above="@+id/museum_image_view_row"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingTop="16dp">
@@ -85,9 +92,10 @@
         android:id="@+id/museum_image_view_row"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/info_image_view_row"
+        android:layout_alignParentBottom="true"
         android:orientation="horizontal"
-        android:paddingTop="16dp">
+        android:paddingTop="16dp"
+        android:layout_marginBottom="16dp">
 
         <RelativeLayout
             android:id="@+id/museum_icon"

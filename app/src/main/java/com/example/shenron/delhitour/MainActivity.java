@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import static com.example.shenron.delhitour.R.layout.about;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -16,13 +14,33 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView intro = (ImageView) findViewById(R.id.about_image_view);
+        RelativeLayout intro = (RelativeLayout) findViewById(R.id.about_icon);
 
         intro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent introIntent = new Intent(MainActivity.this,About.class);
+                Intent introIntent = new Intent(MainActivity.this, About.class);
                 startActivity(introIntent);
+            }
+        });
+
+        RelativeLayout restaurant = (RelativeLayout) findViewById(R.id.restaurant_icon);
+
+        restaurant.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent resIntent = new Intent(MainActivity.this, RestaurantsActivity.class);
+                startActivity(resIntent);
+            }
+        });
+
+        RelativeLayout hotels = (RelativeLayout) findViewById(R.id.hotel_icon);
+
+        hotels.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent hotelIntent = new Intent(MainActivity.this, RestaurantsActivity.class);
+                startActivity(hotelIntent);
             }
         });
     }
