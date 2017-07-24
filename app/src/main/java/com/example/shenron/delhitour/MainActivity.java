@@ -39,8 +39,18 @@ public class MainActivity extends AppCompatActivity {
         hotels.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent hotelIntent = new Intent(MainActivity.this, RestaurantsActivity.class);
+                Intent hotelIntent = new Intent(MainActivity.this, HotelsActivity.class);
                 startActivity(hotelIntent);
+            }
+        });
+
+        RelativeLayout museums = (RelativeLayout) findViewById(R.id.museum_icon);
+
+        museums.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent museumsIntent = new Intent(MainActivity.this, MuseumsActivity.class);
+                startActivity(museumsIntent);
             }
         });
     }
