@@ -26,13 +26,13 @@ public class MuseumsActivity extends AppCompatActivity{
         final ArrayList<Word> words = new ArrayList<Word>();
 
 
-        words.add(new Word("National Gandhi Museum", "4.4"));
-        words.add(new Word("National Rail Museum", "4.3"));
-        words.add(new Word("Indian Air Force Museum", "4.4"));
-        words.add(new Word("National Handicrafts and Handlooms Museum", "4.5"));
-        words.add(new Word("National Police Museum", "3"));
-        words.add(new Word("National Agricultural Science Museum", "4.6"));
-        words.add(new Word("National Children's Museum", "2.6"));
+        words.add(new Word("National Gandhi Museum", "4.4",R.drawable.national_gandhi_museum));
+        words.add(new Word("National Rail Museum", "4.3",R.drawable.national_rail_museum));
+        words.add(new Word("Indian Air Force Museum", "4.4",R.drawable.air_force_museum));
+        words.add(new Word("National Handicrafts and Handlooms Museum", "4.5",R.drawable.handicrafts_and_handlooms_museum));
+        words.add(new Word("National Police Museum", "3",R.drawable.national_police_museum));
+        words.add(new Word("National Agricultural Science Museum", "4.6",R.drawable.national_agricultural_science_museum));
+        words.add(new Word("National Children's Museum", "2.6",R.drawable.national_childrens_museums));
 
         //Create an {@link ArrayAdapter}, whose data source is list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
