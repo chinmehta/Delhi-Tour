@@ -56,7 +56,7 @@ public class SightsActivity extends AppCompatActivity{
         // simple_list_item_1.xml layout resource define in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
-        WordAdapter adapter = new WordAdapter(this, words);
+        WordAdapter adapter = new WordAdapter(this, words,R.color.sights);
         //find {@link ListView} object in the hierarchy of the {@link Activity}
         //There should be a {@link ListView} with the ID called list, whic  h is declared in
         //word_list.xml file.

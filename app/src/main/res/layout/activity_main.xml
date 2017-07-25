@@ -4,14 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main_view"
     tools:context="com.example.shenron.delhitour.MainActivity">
 
+
+
+
     <ImageView
+        android:layout_above="@+id/info_image_view_row"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/start_image"
         android:src="@drawable/start_image"
-        android:layout_above="@+id/info_image_view_row"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
 
     <LinearLayout
         android:id="@+id/info_image_view_row"
@@ -25,13 +33,15 @@
             android:id="@+id/about_icon"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:background="@color/about">
 
             <ImageView
                 android:id="@+id/about_image_view"
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:layout_margin="8dp"
                 android:src="@drawable/ic_info_black_24dp" />
 
             <TextView
@@ -47,13 +57,15 @@
             android:id="@+id/hotel_icon"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:background="@color/hotels">
 
             <ImageView
                 android:id="@+id/hotel_image_view"
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:layout_margin="8dp"
                 android:src="@drawable/ic_location_city_black_24dp" />
 
             <TextView
@@ -69,6 +81,7 @@
             android:id="@+id/restaurant_icon"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:background="@color/resturants"
             android:layout_weight="1">
 
             <ImageView
@@ -76,6 +89,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:layout_margin="8dp"
                 android:src="@drawable/ic_local_dining_black_24dp" />
 
             <TextView
@@ -94,12 +108,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
-        android:paddingTop="16dp"
         android:layout_marginBottom="16dp">
 
         <RelativeLayout
             android:id="@+id/museum_icon"
             android:layout_width="fill_parent"
+            android:background="@color/museums"
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
@@ -108,6 +122,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:layout_margin="8dp"
                 android:src="@drawable/ic_account_balance_black_24dp" />
 
             <TextView
@@ -122,6 +137,7 @@
         <RelativeLayout
             android:id="@+id/sights_icon"
             android:layout_width="fill_parent"
+            android:background="@color/sights"
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
@@ -130,6 +146,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:layout_margin="8dp"
                 android:src="@drawable/ic_weekend_black_24dp" />
 
             <TextView
@@ -145,6 +162,7 @@
             android:id="@+id/help_icon"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:background="@color/help"
             android:layout_weight="1">
 
             <ImageView
@@ -152,6 +170,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:layout_margin="8dp"
                 android:src="@drawable/ic_help_black_24dp" />
 
             <TextView

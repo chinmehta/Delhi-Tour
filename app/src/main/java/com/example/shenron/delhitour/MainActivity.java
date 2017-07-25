@@ -1,11 +1,13 @@
 package com.example.shenron.delhitour;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         RelativeLayout intro = (RelativeLayout) findViewById(R.id.about_icon);
 
@@ -25,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         RelativeLayout restaurant = (RelativeLayout) findViewById(R.id.restaurant_icon);
+        restaurant.setBackgroundColor(Color.rgb(255, 112, 112));
 
         restaurant.setOnClickListener(new View.OnClickListener() {
             @Override
