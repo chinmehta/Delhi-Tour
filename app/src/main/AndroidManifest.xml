@@ -47,7 +47,7 @@
 
         <activity android:name=".HotelsActivity"
 
-            android:label="MUSEUMS"
+            android:label="HOTELS"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -55,6 +55,25 @@
                 />
         </activity>
 
+        <activity android:name=".SightsActivity"
+
+            android:label="SIGHTS"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"
+                />
+        </activity>
+
+        <activity android:name=".help"
+
+            android:label="HELP"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"
+                />
+        </activity>
 
     </application>
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Project"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Delhi Tour is and Open Source Project with the aim to help tourists discover rituals of the city. This app does not meant to violate any copyrights issue or advertise any organisation by the content shown in application. Content shown here is taken from Google."/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="30sp"
+        android:text="Contact Developer"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Email : mchintan24@gmail.com"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Github : https://github.com/shenron-cipher"/>
+</LinearLayout>

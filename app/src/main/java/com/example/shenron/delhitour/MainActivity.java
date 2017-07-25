@@ -53,5 +53,28 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(museumsIntent);
             }
         });
+
+        RelativeLayout sights = (RelativeLayout) findViewById(R.id.sights_icon);
+
+        sights.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sightsIntent = new Intent(MainActivity.this, SightsActivity.class);
+                startActivity(sightsIntent);
+            }
+        });
+
+        RelativeLayout help = (RelativeLayout) findViewById(R.id.help_icon);
+
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent helpIntent = new Intent(MainActivity.this, help.class);
+                startActivity(helpIntent);
+
+            }
+        });
+
     }
+
 }
