@@ -38,6 +38,7 @@ public class HotelsActivity extends AppCompatActivity{
                 words.add(new Word("Shangri-La's Eros Hotel", "4.4",R.drawable.shangri_la_hotel));
                 words.add(new Word("Hyatt Regency Delhi", "4.4",R.drawable.hyatt_regency));
                 words.add(new Word("The Claridges New Delhi", "4.4",R.drawable.the_claridges));
+
                 //Create an {@link ArrayAdapter}, whose data source is list of Strings. The
                 // adapter knows how to create layouts for each item in the list, using the
                 // simple_list_item_1.xml layout resource define in the Android framework.

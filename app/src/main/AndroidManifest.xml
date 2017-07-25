@@ -45,6 +45,16 @@
                 />
         </activity>
 
+        <activity android:name=".HotelsActivity"
+
+            android:label="MUSEUMS"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"
+                />
+        </activity>
+
 
     </application>
 
